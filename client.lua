@@ -40,7 +40,7 @@ function MenuProps()
                     RageUI.ButtonWithStyle("Supprésions Props", 'Liste des object déja spawn', {RightLabel = "→→→"}, true, function(Hovered, Active, Selected)
                     end, PropsSup)
 
-                    RageUI.ButtonWithStyle("Personalisée", 'Fait spawn un object de ton choix', {RightLabel = "→→→"}, true, function(Hovered, Active, Selected)
+                    RageUI.ButtonWithStyle("Personnalisée", 'Fait spawn un object de ton choix', {RightLabel = "→→→"}, true, function(Hovered, Active, Selected)
                         if Selected then
                         local personalise = KeyboardInput("Quelle Props ?", '' , '', 8)
                             SpawnObj(personalise)
