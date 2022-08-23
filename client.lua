@@ -24,7 +24,7 @@ end)
 object = {}
 
 function MenuProps()
-    local MenuProps = RageUI.CreateMenu("Menu Métier", "~b~Menu des différents métier.")
+    local MenuProps = RageUI.CreateMenu("Menu Props", "~b~Menu des différents Props.")
     local PropsSup = RageUI.CreateSubMenu(MenuProps, "", "Menu Supprésions Props")
 
     RageUI.Visible(MenuProps, not RageUI.Visible(MenuProps))
