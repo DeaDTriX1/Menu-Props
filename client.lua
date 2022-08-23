@@ -101,5 +101,6 @@ Keys.Register('F6', 'Props', 'Ouvrir le menu Props', function()
 ESX.TriggerServerCallback("Menu-Props:getUsergroup",function(group)
     if (group) == 'superadmin' or (group) == 'admin' or (group) == 'mod' then
     	MenuProps()
-    end
+	end
+    end)
 end)
