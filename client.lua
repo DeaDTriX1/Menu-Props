@@ -97,7 +97,7 @@ function MenuProps()
     end
 end
 
-Keys.Register('F6', 'Props', 'Ouvrir le menu Props', function()
+Keys.Register(Config.Touche, 'Props', 'Ouvrir le menu Props', function()
     ESX.TriggerServerCallback("Menu-Props:getUsergroup",function(group)
         if Restrein then
             if (group) == Group.Authorize1  or (group) == Group.Authorize2 or (group) == Group.Authorize3 or (group) == Group.Authorize4 or (group) == Group.Authorize5 then
