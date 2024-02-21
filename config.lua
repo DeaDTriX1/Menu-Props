@@ -1,5 +1,7 @@
 Config = {}
 
+Config.Touche = 'F6' -- touche pour ouvrir le menu
+
 -- AJOUTE TES PROPS ICI
 
 Config.Props = {
