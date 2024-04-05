@@ -15,10 +15,13 @@ client_scripts {
     "src/menu/windows/*.lua"
 }
 
+shared_scripts {
+    'config.lua',
+}
+
 client_scripts {
     'client.lua',
     'function.lua',
-    'config.lua',
 }
 
 server_scripts {
