@@ -2,6 +2,7 @@ Config = {}
 
 Config.Touche = 'F6' -- touche pour ouvrir le menu
 
+Config.ESX = 'new' -- new = legacy /// old = ancien ESX
 -- AJOUTE TES PROPS ICI
 
 Config.Props = {
